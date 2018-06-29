@@ -172,7 +172,7 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
             super(view);
 
 //          TODO (6) Get references to all new views and delete this line
-            weatherSummary = (TextView) view.findViewById(R.id.tv_weather_data);
+            weatherSummary = (TextView) view.findViewById(R.id.tv_date_weather);
 
             view.setOnClickListener(this);
         }
