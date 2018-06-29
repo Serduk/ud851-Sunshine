@@ -163,15 +163,12 @@ class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapt
      * OnClickListener, since it has access to the adapter and the views.
      */
     class ForecastAdapterViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-//      TODO (4) Replace the weatherSummary TextView with individual weather detail TextViews
         final TextView weatherSummary;
 
-//      TODO (5) Add an ImageView for the weather icon
 
         ForecastAdapterViewHolder(View view) {
             super(view);
 
-//          TODO (6) Get references to all new views and delete this line
             weatherSummary = (TextView) view.findViewById(R.id.tv_date_weather);
 
             view.setOnClickListener(this);
