@@ -41,7 +41,7 @@
 <!-- TODO (29) Surround the entire layout with <layout/> tags for data binding -->
 <!-- TODO (30) Using ConstraintLayout, create the extra weather details layout -->
 <!-- TODO (33) Include the extra_weather_details layout -->
-
+<layout>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -107,3 +107,4 @@
         tools:text="4km/h NW"/>
 
 </LinearLayout>
+    </layout>
